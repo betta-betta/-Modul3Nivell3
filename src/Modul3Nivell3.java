@@ -6,7 +6,7 @@ public class Modul3Nivell3 {
 		Scanner introdueix = new Scanner(System.in);
 		int inici=0, a=1, n, num;
 		
-		System.out.println("Introdueix un número : ");
+		System.out.println("Introdueix un número: ");
 		num=introdueix.nextInt();
 		System.out.println("La seqüència del fibonacci del número "+num+" és:");
 		for(int i=0;i<num;i++) {
